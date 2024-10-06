@@ -27,6 +27,6 @@ public class PhoneBook {
     }
 
     public List<String> printAllNames() {
-        return new ArrayList<>();
+        return new ArrayList<>(phoneMap.keySet());
     }
 }
